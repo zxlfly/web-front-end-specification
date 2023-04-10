@@ -1,5 +1,5 @@
 module.exports = {
-  title: "前端开发项目样式规范", // 顶部左侧标题
+  title: "前端开发规范", // 顶部左侧标题
   // base: "/doc-style-specification-document/", // 项目的根路径
   ignoreDeadLinks: true,// 构建时会忽略md中的外链
   markdown: {
@@ -12,14 +12,14 @@ module.exports = {
     // 设置 描述 和 关键词
     [
       "meta",
-      { name: "keywords", content: "前端开发项目样式规范" },
+      { name: "keywords", content: "前端开发规范" },
     ],
     [
       "meta",
       {
         name: "description",
         content:
-          "前端开发项目样式规范",
+          "前端开发规范",
       },
     ],
   ],
@@ -29,7 +29,7 @@ module.exports = {
     //   { icon: 'slack', link: '' }
     // ],
     lastUpdatedText: '更新时间',
-    siteTitle: '前端开发项目样式规范',
+    siteTitle: '前端开发规范',
     nav: [//右侧导航
       { text: '项目简介', link: '/' },
       { text: '编辑示例', link: '/example' }
