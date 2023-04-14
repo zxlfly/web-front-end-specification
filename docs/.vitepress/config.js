@@ -91,6 +91,33 @@ module.exports = {
           { text: '通用尺寸颜色等规范', link: '/pages/project-style-specification/universal-size-specification' },
         ],
       },
+      {
+        text: '基础样式',
+        collapsible: true,//可折叠的
+        collapsed: true,//默认是否折叠
+        items: [
+          { text: '布局', link: '/pages/base/layout' },
+          { text: '滚动条', link: '/pages/base/scroll' },
+          { text: '按钮', link: '/pages/base/button' },
+          { text: '分页', link: '/pages/base/pagination' },
+          { text: '输入框', link: '/pages/base/input' },
+          { text: '多选框/单选框', link: '/pages/base/checkboxOrRadio' },
+          { text: '提示信息', link: '/pages/base/message' },
+          { text: '下拉框', link: '/pages/base/select' },
+          { text: '表格', link: '/pages/base/table' },
+          { text: '面包屑', link: '/pages/base/breadcrumb' },
+          { text: 'Tabs', link: '/pages/base/tabs' }
+        ],
+      },
+      {
+        text: '全局公用样式',
+        collapsible: true,//可折叠的
+        collapsed: true,//默认是否折叠
+        items: [
+          { text: '标题', link: '/pages/public/title' },
+          { text: '颜色', link: '/pages/public/color' },
+        ],
+      }
     ],
     outlineTitle: '目录'
   },
