@@ -31,8 +31,8 @@ module.exports = {
     lastUpdatedText: '更新时间',
     siteTitle: '前端开发规范',
     nav: [//右侧导航
-      { text: '项目简介', link: '../pages/index' },
-      { text: '编辑示例', link: '../pages/example' }
+      { text: '项目简介', link: '/' },
+      { text: '编辑示例', link: '/pages/example' }
     ],
     // 侧边导航
     sidebar: [
