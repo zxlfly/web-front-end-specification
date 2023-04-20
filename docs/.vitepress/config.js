@@ -1,7 +1,7 @@
 module.exports = {
   title: "前端开发规范", // 顶部左侧标题
   base: "/web-front-end-specification/", // 项目的根路径
-  ignoreDeadLinks: true,// 构建时会忽略md中的外链
+  ignoreDeadLinks: false,// 构建时会忽略md中的外链
   markdown: {
     // theme: 'material-palenight',//md主题
     lineNumbers: true//md 加行号
@@ -24,10 +24,9 @@ module.exports = {
     ],
   ],
   themeConfig: {
-    // socialLinks: [//右上角图标和链接，icon 可用svg 配置
-    //   { icon: 'github', link: '' },
-    //   { icon: 'slack', link: '' }
-    // ],
+    socialLinks: [//右上角图标和链接，icon 可用svg 配置
+      { icon: 'github', link: 'https://github.com/zxlfly' },
+    ],
     lastUpdatedText: '更新时间',
     siteTitle: '前端开发规范',
     nav: [//右侧导航
