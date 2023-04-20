@@ -22,7 +22,7 @@ module.exports = {
           "前端开发规范",
       },
     ],
-    ['link', { rel: 'icon', href: '/favicon.ico' }]
+    ['link', { rel: 'icon', href: 'favicon.ico' }]
   ],
   themeConfig: {
     socialLinks: [//右上角图标和链接，icon 可用svg 配置
