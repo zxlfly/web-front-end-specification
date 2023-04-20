@@ -3,7 +3,11 @@
 node_module
 .temp
 .cache
-
+# docs
+'cache'
+cache
+'dist'
+dist
 # Logs
 logs
 *.log
