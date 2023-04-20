@@ -1,6 +1,6 @@
 module.exports = {
   title: "前端开发规范", // 顶部左侧标题
-  base: "/web-front-end-specification", // 项目的根路径
+  base: "/web-front-end-specification/", // 项目的根路径
   ignoreDeadLinks: false,// 构建时会忽略md中的外链
   markdown: {
     // theme: 'material-palenight',//md主题
