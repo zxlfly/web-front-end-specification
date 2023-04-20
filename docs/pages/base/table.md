@@ -4,4 +4,4 @@
 3、行高
 - 40px
 4、表内文字不能换行，溢出隐藏，鼠标移入显示隐藏内容。
-![table](../../image/table.jpg)
+![table](/image/table.jpg)
