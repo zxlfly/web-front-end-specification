@@ -26,7 +26,7 @@ module.exports = {
   ],
   themeConfig: {
     socialLinks: [//右上角图标和链接，icon 可用svg 配置
-      { icon: 'github', link: 'https://github.com/zxlfly' },
+      { icon: 'github', link: 'https://github.com/zxlfly/web-front-end-specification' },
     ],
     lastUpdatedText: '更新时间',
     siteTitle: '前端开发规范',
@@ -106,7 +106,8 @@ module.exports = {
           { text: '下拉框', link: '/pages/base/select' },
           { text: '表格', link: '/pages/base/table' },
           { text: '面包屑', link: '/pages/base/breadcrumb' },
-          { text: 'Tabs', link: '/pages/base/tabs' }
+          { text: 'Tabs', link: '/pages/base/tabs' },
+          { text: 'overflow', link: '/pages/base/overflow' }
         ],
       },
       {
@@ -116,6 +117,16 @@ module.exports = {
         items: [
           { text: '标题', link: '/pages/public/title' },
           { text: '颜色', link: '/pages/public/color' },
+        ],
+      },
+      {
+        text: '用户交互体验',
+        collapsible: true,//可折叠的
+        collapsed: true,//默认是否折叠
+        items: [
+          { text: '总则', link: '/pages/interact/home' },
+          { text: '操作交互', link: '/pages/interact/operation-interaction' },
+          { text: '动画过度', link: '/pages/interact/over-animation' },
         ],
       }
     ],
