@@ -5,9 +5,9 @@ node_module
 .cache
 # docs
 # 'cache'
-# cache
+cache
 # 'dist'
-# dist
+dist
 # Logs
 logs
 *.log

@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as p,N as a}from"./chunks/framework.74d38e29.js";const u=JSON.parse('{"title":"前端规范指南","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","lastUpdated":1681976736000}'),s={name:"index.md"},o=a("",15),r=[o];function n(_,i,c,d,l,m){return p(),t("div",null,r)}const f=e(s,[["render",n]]);export{u as __pageData,f as default};

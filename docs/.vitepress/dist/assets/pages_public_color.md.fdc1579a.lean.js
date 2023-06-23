@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./chunks/framework.74d38e29.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"pages/public/color.md","lastUpdated":1681442920000}'),o={name:"pages/public/color.md"};function r(c,s,p,n,l,d){return a(),t("div")}const m=e(o,[["render",r]]);export{_ as __pageData,m as default};
