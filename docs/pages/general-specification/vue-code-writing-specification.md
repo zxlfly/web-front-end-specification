@@ -5,7 +5,7 @@
 ### 5.1.1 vue组件命名
 
 - 通常包括components文件夹以内的文件
-- 在vue项目的components文件下创建single-file components（单文件组件），使用PascalCase命名。
+- 在vue项目的components文件下创建single-file components（单文件组件），使用全部采用小写，多个单词以短横线"-"分隔。
 - 组件名应该倾向于全拼而不是缩写。编辑器中的自动补全功能已经让书写长命名的代价非常低了，而其带来的明确性却是非常宝贵的。
 
 ```js
