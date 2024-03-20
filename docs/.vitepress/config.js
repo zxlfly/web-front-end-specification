@@ -133,10 +133,10 @@ module.exports = {
                         text: "命名规范",
                         link: "/pages/project-style-specification/naming-convention",
                     },
-                    {
-                        text: "全局通用样式",
-                        link: "/pages/project-style-specification/global-style",
-                    },
+                    // {
+                    //     text: "全局通用样式",
+                    //     link: "/pages/project-style-specification/global-style",
+                    // },
                     {
                         text: "通用尺寸颜色等规范",
                         link: "/pages/project-style-specification/universal-size-specification",
@@ -146,23 +146,20 @@ module.exports = {
             {
                 text: "基础样式",
                 collapsible: true, //可折叠的
-                collapsed: true, //默认是否折叠
+                collapsed: true, //默认是否折叠 
                 items: [
                     { text: "布局", link: "/pages/base/layout" },
                     { text: "滚动条", link: "/pages/base/scroll" },
                     { text: "按钮", link: "/pages/base/button" },
                     { text: "分页", link: "/pages/base/pagination" },
                     { text: "输入框", link: "/pages/base/input" },
-                    {
-                        text: "多选框/单选框",
-                        link: "/pages/base/checkboxOrRadio",
-                    },
-                    { text: "提示信息", link: "/pages/base/message" },
-                    { text: "下拉框", link: "/pages/base/select" },
+                    {text: "标题",link: "/pages/base/title",},
+                    { text: "全局提示", link: "/pages/base/message" },
+                    // { text: "下拉框", link: "/pages/base/select" },
                     { text: "表格", link: "/pages/base/table" },
                     { text: "面包屑", link: "/pages/base/breadcrumb" },
-                    { text: "Tabs", link: "/pages/base/tabs" },
-                    { text: "overflow", link: "/pages/base/overflow" },
+                    { text: "弹框", link: "/pages/base/alert" },
+                    { text: "边距参考值", link: "/pages/base/margin" },
                 ],
             },
             {
@@ -170,7 +167,6 @@ module.exports = {
                 collapsible: true, //可折叠的
                 collapsed: true, //默认是否折叠
                 items: [
-                    { text: "标题", link: "/pages/public/title" },
                     { text: "颜色", link: "/pages/public/color" },
                 ],
             },

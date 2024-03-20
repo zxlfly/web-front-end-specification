@@ -1,11 +1,8 @@
-1、样式使用默认的
-2、大小使用默认的，特殊的情况可以酌情设置。
-```javascript
-    <el-button size="default">Default</el-button>
-```
-
-3、按钮颜色（优先使用框架自带颜色，没有的自定义，全局统一管理）
-- 增：danger
-- 删：success
-- 改：warning
-- 查：primary
+# 按钮
+## 尺寸
+&emsp;&emsp;一般使用UI框架默认尺寸，可根据实际需求调整，推荐使用自带的可选尺寸。如果需要设置样式，需要在对应的文档中标明（建议在："全局通用样式"中对应的分类中）  
+## 颜色
+&emsp;&emsp;组件风格，依次为默认色`default`、品牌色`primary`、危险色`danger`、警告色`warning`、成功色`success`。
+&emsp;&emsp;如果需要使用其他颜色，请在对应的文档中标明（建议在："全局通用样式"中对应的分类中）
+## icon
+&emsp;&emsp;一般使用按钮是不推荐添加`icon`，以文字标识为主。
