@@ -155,7 +155,7 @@ module.exports = {
                     { text: "输入框", link: "/pages/base/input" },
                     {text: "标题",link: "/pages/base/title",},
                     { text: "全局提示", link: "/pages/base/message" },
-                    // { text: "下拉框", link: "/pages/base/select" },
+                    { text: "抽屉", link: "/pages/base/drawer" },
                     { text: "表格", link: "/pages/base/table" },
                     { text: "面包屑", link: "/pages/base/breadcrumb" },
                     { text: "弹框", link: "/pages/base/alert" },
@@ -168,6 +168,7 @@ module.exports = {
                 collapsed: true, //默认是否折叠
                 items: [
                     { text: "颜色", link: "/pages/public/color" },
+                    { text: "高度自适应", link: "/pages/public/auto-height" },
                 ],
             },
             {

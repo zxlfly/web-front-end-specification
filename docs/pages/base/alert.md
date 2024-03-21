@@ -1,4 +1,4 @@
 # 弹窗
 &emsp;&emsp;一般使用默认弹窗组件，要求弹窗本身不能出现滚动条，内容部分可以出现滚动条。如果内容过多，需考虑使用页面跳转的方式处理。  
-&emsp;&emsp;弹窗边距不实用默认值，可以参考[边距参考值](/pages/base/margin.html)设置，建议默认为`10px`。  
+&emsp;&emsp;弹窗边距不使用默认值，可以参考[边距参考值](/pages/base/margin.html)设置，建议默认为`10px`。  
 &emsp;&emsp;弹窗默认都需要有标题，可以参考[标题](/pages/base/title)。
